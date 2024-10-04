@@ -1,5 +1,4 @@
 package TicTacToe;
-
 import java.util.Scanner;
 public class Tester 
 {
@@ -14,10 +13,7 @@ public class Tester
         System.out.println("Hello! Welcome to a game of tic-tac-toe!");
 
         do
-        {
-            game.clear();
-            game.showBoard();
-            
+        {            
             while(true)
             {
                 System.out.print("What row does Player " + game.getPlayer() + " want?: ");
